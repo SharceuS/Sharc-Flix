@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Bugaki-Italic;
+    src: url("../fonts/Bugaki-Italic.otf") format("opentype"),
+    url("../fonts/Bugaki-Italic.ttf") format("truetype"),
+    url("../fonts/Bugaki-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: Bugaki;
+    src: url("../fonts/Bugaki-Regular.otf") format("opentype"),
+    url("../fonts/Bugaki-Regular.ttf") format("truetype"),
+    url("../fonts/Bugaki-Regular.woff") format("woff");
+}
+
+body {
+    font-family: Bugaki !important;
+}

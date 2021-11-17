@@ -1,1 +1,3 @@
-require('./bootstrap');
+$("#exitError").click(() => {
+    $("#errorContent").remove();
+})

@@ -31880,6 +31880,26 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@font-face {
+  font-family: Bugaki-Italic;
+
+  src: url(/fonts/Bugaki-Italic.otf?32eee33debb77afa446a30d563629992) format("opentype"),
+    url(/fonts/Bugaki-Italic.ttf?57c6550a54dfd7d3f7c8c3ad63432493) format("truetype"),
+    url(/fonts/Bugaki-Italic.woff?34e7441150fadf6a66639193ca5d0e1a) format("woff");
+}
+
+@font-face {
+  font-family: Bugaki;
+
+  src: url(/fonts/Bugaki-Regular.otf?e7b101f5966b2c57c7ee31a695a7f2be) format("opentype"),
+    url(/fonts/Bugaki-Regular.ttf?ab6931c8256f732e0860fec364fdb309) format("truetype"),
+    url(/fonts/Bugaki-Regular.woff?ab5951a54e3998e9708b9394c510d7ff) format("woff");
+}
+
+body {
+  font-family: Bugaki !important;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

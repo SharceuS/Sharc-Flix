@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [pageController::class, 'index']);
+Route::post('/', [pageController::class, 'loginAuth']);
+
+Route::get('/admin/user/create', [pageController::class, 'adminCreateUserView']);
+Route::post('/admin/user/create', [pageController::class, 'adminCreateUser']);
